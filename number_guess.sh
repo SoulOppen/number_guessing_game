@@ -1,2 +1,4 @@
 #!/bin/bash
-random_number=$(shuf -i 1-1000 -n 1)
+SECRET_NUMBER=$(($RANDOM%1000+1))
+echo -e "\nEnter your username:"
+read USERNAME
